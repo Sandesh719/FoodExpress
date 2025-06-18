@@ -1,0 +1,265 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header-text-styles{
+    @apply my-2 mx-4 p-2 font-semibold text-lg hover:text-green-600;
+}
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+/* ================= NAVBAR ================= */
+/* #Link-styles {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.nav-items > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items > ul > li {
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 20px;
+}
+
+.nav-items > ul > li:hover {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+
+.logo {
+    width: 125px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+} */
+
+/* ================= CARDS ================= */
+/* .card {
+    width: 327px;
+    min-height: 350px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: white;
+}
+
+.card:hover {
+    transform: scale(0.94);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card > img {
+    width: 100%;
+    height: 238px;
+    object-fit: cover;
+    border-radius: 8px;
+} */
+
+/* ================= HOVER TEXT ON IMAGE ================= */
+/* .image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 238px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 0 0 8px 8px;
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+} */
+
+/* ================= CARD CONTAINER ================= */
+/* .restaurant-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+} */
+
+/* ================= SEARCH BAR ================= */
+/* .search-input {
+    margin: 10px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #555;
+} */
+
+/* ================= SHIMMER LOADING CARD ================= */
+/* .shimmer-card {
+    width: 347px;
+    height: 238px;
+    margin-top: 82px;
+    margin-bottom: 88px;
+    background: lightgray;
+    border-radius: 12px;
+} */
+
+/* ================= EXTRA GOODIES ================= */
+/* .restaurant-name {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    margin: 4px 0px;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 6px;
+    height: 22.8px;
+}
+
+.rating {
+    font-weight: bold;
+    margin-left: 8px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 2px 0px;
+}
+
+.cuisines,
+.price {
+    margin: 0;
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(2, 6, 12, 0.6);
+} */
+
+/* ================= MENU PAGE STYLING ================= */
+/* .menu-intro > img {
+    width: 350px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.list-items{
+    border: 1px solid black;
+} */
+/* Container for the load more button */
+/* .load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+/* Styling for the load more button */
+/* .load-more-btn {
+    padding: 12px 25px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #5e62de;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+} */
+
+/* Button hover effect */
+/* .load-more-btn:hover {
+    background-color: #5e62de; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* Button focus effect for accessibility */
+/* .load-more-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(72, 192, 72, 0.4); 
+}
+
+.load-more-btn:disabled {
+    background-color: #dcdcdc;
+    color: #888; 
+    cursor: not-allowed;
+    box-shadow: none; 
+} */

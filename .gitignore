@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+package-lock.json/
+# Parcel cache
+.parcel-cache/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
