@@ -22,7 +22,7 @@ const RestaurantMenu = ()=>{
             restaurantName: resInfo?.name,
             id: item?.dish?.info?.id,
             name: item?.dish?.info?.name,
-            price: item?.dish?.info?.itemPriceStrikeOff===true ? item?.dish?.info?.finalPrice / 100 : item?.dish?.info?.price / 100,
+            price: item?.dish?.info?.finalPrice ? item?.dish?.info?.finalPrice / 100 : item?.dish?.info?.price / 100,
             imageId: item?.dish?.info?.imageId,
             description: item?.dish?.info?.description
         } 
